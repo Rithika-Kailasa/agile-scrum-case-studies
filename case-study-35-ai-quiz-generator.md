@@ -3,65 +3,62 @@
 
 ## 1. Problem Statement
 
-Students spend considerable time preparing practice questions from their notes. Creating quizzes manually can be time-consuming for students and teachers. The AI-based Quiz Generator aims to generate practice questions from uploaded notes or selected topics, allowing students to answer questions and evaluate their performance.
+Students spend time creating practice questions from their notes. The AI-based Quiz Generator helps students generate quiz questions from notes or selected topics, attempt quizzes, and evaluate their performance.
 
 ## 2. Product Backlog
 
 | ID | User Story | Priority |
 |---|---|---|
 | PBI-1 | As a student, I want to select a topic for a quiz. | High |
-| PBI-2 | As a student, I want to upload or provide notes. | High |
-| PBI-3 | As a student, I want the system to generate quiz questions. | High |
+| PBI-2 | As a student, I want to upload or enter notes. | High |
+| PBI-3 | As a student, I want to generate quiz questions. | High |
 | PBI-4 | As a student, I want to answer multiple-choice questions. | High |
-| PBI-5 | As a student, I want to submit my answers and see my score. | High |
+| PBI-5 | As a student, I want to submit answers and view my score. | High |
 | PBI-6 | As a student, I want to review correct answers. | Medium |
-| PBI-7 | As a student, I want to view my past quiz results. | Low |
+| PBI-7 | As a student, I want to view previous quiz results. | Low |
 
 ## 3. Sprint Plan
 
-### Sprint 1: Quiz Setup and Question Generation
-- Create the topic selection page.
-- Add a notes input or upload option.
-- Develop the question generation feature.
-- Display generated questions.
-
-### Sprint 2: Quiz Attempt and Results
-- Allow students to select answers.
-- Implement quiz submission.
-- Calculate and display scores.
-- Show correct answers and feedback.
-- Test the complete workflow.
+| Sprint | Duration | Planned Features | Sprint Goal |
+|---|---|---|---|
+| Sprint 1 | 1 week | Topic selection, notes input, question generation | Students can generate and view quiz questions. |
+| Sprint 2 | 1 week | Answer selection, submission, scoring, result review | Students can attempt quizzes and evaluate their performance. |
 
 ## 4. Sprint Backlog
 
-**Sprint 1 Tasks**
-- Design the quiz setup interface.
-- Implement topic selection.
-- Create the notes input form.
-- Develop question generation.
-- Test question display and basic validation.
-
-**Sprint 2 Tasks**
-- Implement answer selection.
-- Create the quiz submission function.
-- Calculate scores automatically.
-- Display results and correct answers.
-- Test the application using different topics.
+| Sprint | Task | Priority | Status |
+|---|---|---|---|
+| Sprint 1 | Design the quiz setup page | High | Planned |
+| Sprint 1 | Implement topic selection | High | Planned |
+| Sprint 1 | Create notes input or upload feature | High | Planned |
+| Sprint 1 | Develop question generation | High | Planned |
+| Sprint 1 | Test generated question display | High | Planned |
+| Sprint 2 | Implement answer selection | High | Planned |
+| Sprint 2 | Create quiz submission feature | High | Planned |
+| Sprint 2 | Calculate and display scores | High | Planned |
+| Sprint 2 | Display correct answers and feedback | Medium | Planned |
+| Sprint 2 | Test the complete quiz workflow | High | Planned |
 
 ## 5. Increment
 
-**Sprint 1 Increment:** Students can select a topic or provide notes and view generated quiz questions.
-
-**Sprint 2 Increment:** Students can attempt quizzes, submit answers, view scores, and review correct answers.
+| Sprint | Increment |
+|---|---|
+| Sprint 1 | Students can select topics or enter notes and view generated quiz questions. |
+| Sprint 2 | Students can answer questions, submit quizzes, view scores, and review correct answers. |
 
 ## 6. Sprint Review
 
-At the end of each sprint, the team demonstrates the completed features to students or teachers. Stakeholders provide feedback about question relevance, ease of use, and score calculation. The feedback is added to the product backlog for future improvements.
+| Sprint | Review Result |
+|---|---|
+| Sprint 1 | Demonstrate topic selection, notes input, and generated questions. |
+| Sprint 2 | Demonstrate answering questions, score calculation, and result review. |
+
+Students and teachers provide feedback on question quality, usability, and scoring. The team records suggestions for future improvement.
 
 ## 7. Sprint Retrospective
 
-**What went well:** The work was divided into two sprints, with question generation prioritized before result tracking.
-
-**What could be improved:** Generated questions may sometimes be unclear or inaccurate, so question quality needs to be checked.
-
-**Action for improvement:** Improve question validation, test with different study materials, and use stakeholder feedback to improve the quiz experience.
+| Question | Reflection |
+|---|---|
+| What went well? | The team prioritized question generation before result tracking. |
+| What could be improved? | Generated questions may be unclear or inaccurate and require validation. |
+| Action for improvement | Test different study topics, validate questions, and use stakeholder feedback. |
